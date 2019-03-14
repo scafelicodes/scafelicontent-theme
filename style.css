@@ -1,0 +1,294 @@
+/*
+Theme Name: Scafeli Content Theme
+Theme URI: https://www.evoketraining.com.br
+Description: Produtora de Conteúdos Digitais
+Author: Gustavo Scafeli
+Author URI: https://www.scafeli.com/
+Version: 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900');
+
+/*RESET*/
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: 'proxima_nova_altbold';
+}
+
+
+.cor {
+	color: #eb1a29;
+}
+
+.marg-b50 {
+	margin-bottom: 50px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+	font-family: 'Montserrat';
+	letter-spacing: -1px;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.row-clients {
+	margin-top: 40px;
+}
+
+.clients img {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+}
+
+
+.navbar {
+    padding: .5rem 0rem;
+}
+
+
+
+
+
+/*HERO HOME*/
+
+.hero-home {
+
+    display: flex;
+    height: 80vh;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 1)
+    ),
+    /* bottom, image */
+    url(backhero.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.hero-home h1 {
+	font-size: 60px;
+	line-height: 55px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+
+.hero-home p {
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+
+.faq-content {
+	margin-bottom: 30px;
+}
+
+.hero-home ul {
+	padding: 0px;
+}
+
+.hero-home ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+.hero-home ul li a {
+	color: #fff;
+	font-size: 22px;
+}
+
+.title-section {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+
+
+.content {
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+
+
+.title-page {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+
+
+.shop-home {
+
+    display: flex;
+    height: 30vh;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 1)
+    ),
+    /* bottom, image */
+    url(backhero.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.shop-home h1 {
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+.shop-home p{
+	color: #fff;
+}
+
+.cta-evoke {
+	display: inline-block;
+	background: #eb1a29;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #eb1a29;
+	transition: 0.3s;
+	margin-bottom: 20px;
+}
+
+.cta-evoke:hover {
+	border-radius: 50px;
+	text-decoration: none;
+	background: #eb1a29;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #eb1a29;
+}
+
+
+.cta-evoke-w {
+	display: inline-block;
+	background: transparent;
+	border: 1px solid #eb1a29;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #eb1a29;
+	transition: 0.3s;
+	margin-bottom: 20px;
+}
+
+
+.cta-evoke-w:hover {
+	border-radius: 50px;
+	text-decoration: none;
+	background: transparent;
+	border: 1px solid #eb1a29;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #eb1a29;
+}
+
+
+
+
+
+/*FOOTER*/
+
+
+footer {
+	background: #111111;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+	.hero-home {
+		height: 60vh; 
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.hero-home h1 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+
+}
+
+
+
+
+@media (max-width: 460px) {
+
+
+	.consultor-menu {
+		margin-left: 0px;
+	}
+
+
+	.hero-two {
+		text-align: center;
+	}
+
+	.call-header {
+		display: none;
+	}
+
+
+	.hero-two h3 {
+		font-size: 24px;
+		padding-top: 40px;
+	}
+
+
+	.hero-two img {
+		padding-bottom: 15px;
+	}
+
+
+
+	footer {
+		text-align: center;
+	}
+}
+
+
