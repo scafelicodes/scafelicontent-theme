@@ -44,9 +44,9 @@
           <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/trabalhos">Trabalhos</a>
         </li>
 
-        <!-- <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/blog">Blog da Evoke</a>
-        </li> -->
+        </li>
 
         <li class="nav-item">
           <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/contato">Contato</a>
